@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 const questionSchema = mongoose.Schema({
     id: String,
     soru: String,
-    bircevap: String,
-    ikicevap: String,
-    uccevap: String,
+    cevap : Array,
     correctcevap:String,
     creatAt:{
         type: Date,

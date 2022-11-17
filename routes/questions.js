@@ -32,9 +32,7 @@ router.post("/",(req,res)=>{
     
     const postservices = new Post({
         soru: req.body.soru,
-        bircevap: req.body.bircevap,
-        ikicevap: req.body.ikicevap,
-        uccevap: req.body.uccevap,
+      cevap:req.body.cevap,
         correctcevap:req.body.correctcevap
        
     });
